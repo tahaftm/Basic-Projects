@@ -1,4 +1,6 @@
-word = list("tahat".lower())
+import random
+wordbank = ['roots', 'plant', 'state', 'india']
+word = list(random.choice(wordbank))
 flag = True
 while flag: 
     lives = 5
